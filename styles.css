@@ -1,0 +1,134 @@
+html, body{
+    height:100%;
+}
+body {
+    margin: 0 50px 0 50px;
+    flex-direction: column;
+    background-color: #ff8c0020;
+}
+header {
+    background-color: darkorange;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    margin: 5px;
+    display: grid;
+}
+header .logo {
+    vertical-align: middle;
+    padding-left: 10px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+header .title {
+    flex: 1;
+    vertical-align: middle;
+    font-size: 100%;
+    padding-left: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    font-family: Broadway;
+    font-size: 200%;
+    color: black;
+    letter-spacing: 10px;
+}
+header .menu {
+    font-size: 100%;
+    vertical-align: bottom;
+    text-align: right;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    font-weight: bold;
+}
+header .menuitem {
+    padding: 0 10px 0 10px;
+}
+main {
+    flex:auto;
+    padding: 0 20px 0 20px;
+}
+h1 {
+    width: 100%;
+    padding: 5px;
+    margin: 0 -5px 0 -5px;
+    color: darkorange;
+    background-color: black;
+    font-size: 150%;
+    text-align: center;
+}
+h2 {
+    width: 100%;
+    padding: 5px;
+    margin: 5px -5px 5px -5px;
+    color: black;
+    background-color: lightgrey;
+    font-size: 100%;
+}
+footer {
+    padding: 5px 25px 5px 25px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+footer .menu {
+    padding: 0 20px 0 20px;
+    font-size: 75%;
+    vertical-align: middle;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+}
+.field {
+    display: grid;
+    margin: 5px;
+    width: 100%;
+}
+.label {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    margin-right: 5px;
+    font-size: 75%;
+}
+.value {
+    grid-column: 1;
+    grid-row: 2;
+    border-bottom: 1px solid #666;
+    padding: 1px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.field button {
+    grid-column: 2;
+    grid-row: 2;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+table {
+    padding: 20px;
+    width: 100%;
+}
+th,td {
+    border-bottom:1px solid darkorange;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+  }
+td button {
+    margin-top: 10px;
+}
+.bookSection {
+    display: flex;
+}
+.bookPadding
+{
+    flex: 1;
+}
+.bookButton {
+    padding: 10px;
+    right: 0px;
+}
