@@ -99,6 +99,7 @@ footer .menu {
     padding: 1px;
     vertical-align: middle;
     font-weight: bold;
+    width: 200px;
 }
 .field button {
     grid-column: 2;
@@ -131,4 +132,20 @@ td button {
 .bookButton {
     padding: 10px;
     right: 0px;
+    height: 40px;
+}
+.bookButtonText {
+    margin: 10px;
+    padding: 10px;
+    right: 0px;
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 150%;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.selected
+{
+    background-color: darkorange;
 }
