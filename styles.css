@@ -79,7 +79,7 @@ footer .menu {
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin: 20px;
+    margin: 10px;
 }
 .field {
     display: grid;
@@ -115,7 +115,6 @@ table {
 }
 th,td {
     border-bottom:1px solid darkorange;
-    padding: 5px;
     vertical-align: middle;
     text-align: center;
   }
@@ -135,8 +134,8 @@ td button {
     height: 40px;
 }
 .bookButtonText {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     right: 0px;
     background-color: darkorange;
     font-weight: bold;
