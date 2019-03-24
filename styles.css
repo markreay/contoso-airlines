@@ -6,6 +6,9 @@ body {
     flex-direction: column;
     background-color: #ff8c0020;
 }
+.page {
+    max-width: 800px;
+}
 header {
     background-color: darkorange;
     color: white;
@@ -120,6 +123,10 @@ th,td {
   }
 td button {
     margin-top: 10px;
+}
+.selectButton {
+    border: none;
+    color: #666;
 }
 .bookSection {
     display: flex;
